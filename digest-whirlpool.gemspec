@@ -28,4 +28,6 @@ The size of a Whirlpool hash value is 512 bits.
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake-compiler"
+  spec.add_development_dependency "test-unit"
 end

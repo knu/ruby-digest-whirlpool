@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 The size of a Whirlpool hash value is 512 bits.
 }
   spec.summary       = %q{A Digest module implementing the Whirlpool hashing algorithm}
-  spec.homepage      = "https://github.com/knu/ruby-digest-extra"
+  spec.homepage      = "https://github.com/knu/ruby-digest-whirlpool"
   spec.license       = "BSD-3-Clause"
 
   spec.files         = `git ls-files`.split($/)

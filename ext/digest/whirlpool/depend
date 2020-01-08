@@ -2,5 +2,5 @@ whirlpool-algorithm.o: whirlpool-algorithm.c whirlpool-algorithm.h \
   whirlpool-portability.h whirlpool-constants.h
 whirlpool.o: whirlpool.c whirlpool-algorithm.h whirlpool-portability.h \
   whirlpool-constants.h \
-  $(hdrdir)/digest.h $(hdrdir)/ruby.h \
-  $(topdir)/config.h $(hdrdir)/defines.h $(hdrdir)/intern.h
+  $(hdrdir)/ruby/digest.h $(hdrdir)/ruby.h \
+  $(topdir)/config.h $(hdrdir)/ruby/defines.h $(hdrdir)/ruby/intern.h
